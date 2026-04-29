@@ -231,13 +231,13 @@ class CAR(Platforms):
   )
   HONDA_HRV_3G = HondaBoschPlatformConfig(
     [HondaCarDocs("Honda HR-V 2023-25", "All")],
-    CarSpecs(mass=1200., wheelbase=2.53, steerRatio=19.7, centerToFrontRatio=0.39, tireStiffnessFactor=0.5), minSteerSpeed=23. * CV.KPH_TO_MS),
+    CarSpecs(mass=1200., wheelbase=2.53, steerRatio=19.7, centerToFrontRatio=0.39, tireStiffnessFactor=0.5, minSteerSpeed=23. * CV.KPH_TO_MS),
     {Bus.pt: 'honda_bosch_radarless_generated'},
     flags=HondaFlags.BOSCH_RADARLESS,
   )
   HONDA_FIT_4G = HondaBoschPlatformConfig(
     [HondaCarDocs("Honda Fit 4G 2020-24", "All")],
-    CarSpecs(mass=2000 * CV.LB_TO_KG, wheelbase=2.53, wheelbase=2.53, steerRatio=15.2, centerToFrontRatio=0.39, tireStiffnessFactor=0.5, minSteerSpeed=23. * CV.KPH_TO_MS),
+    CarSpecs(mass=2000 * CV.LB_TO_KG, wheelbase=2.53, steerRatio=15.2, centerToFrontRatio=0.39, tireStiffnessFactor=0.5, minSteerSpeed=23. * CV.KPH_TO_MS),
     {Bus.pt: 'honda_bosch_radarless_generated'},
     flags=HondaFlags.BOSCH_RADARLESS,
   )

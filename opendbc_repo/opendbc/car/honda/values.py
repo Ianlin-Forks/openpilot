@@ -235,12 +235,6 @@ class CAR(Platforms):
     {Bus.pt: 'honda_bosch_radarless_generated'},
     flags=HondaFlags.BOSCH_RADARLESS,
   )
-  HONDA_FIT_4G = HondaBoschPlatformConfig(
-    [HondaCarDocs("Honda Fit 4G 2020-24", "All")],
-    CarSpecs(mass=1200., wheelbase=2.53, steerRatio=19.7, centerToFrontRatio=0.39, tireStiffnessFactor=0.5), minSteerSpeed=23. * CV.KPH_TO_MS),
-    {Bus.pt: 'honda_bosch_radarless_generated'},
-    flags=HondaFlags.BOSCH_RADARLESS,
-  )
   HONDA_CITY_7G = HondaBoschPlatformConfig(
     [HondaCarDocs("Honda City (Brazil only) 2023", "All")],
     CarSpecs(mass=3125 * CV.LB_TO_KG, wheelbase=2.6, steerRatio=19.0, centerToFrontRatio=0.41, minSteerSpeed=23. * CV.KPH_TO_MS),

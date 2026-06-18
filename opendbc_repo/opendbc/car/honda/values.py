@@ -116,6 +116,11 @@ class HondaCarDocs(CarDocs):
       self.car_parts.custom_parts_url = "https://shop.retropilot.org/product/honda-clarity-proxy-board-kit"
       self.support_type: SupportType = SupportType.COMMUNITY
       self.support_link: str = "community"
+   
+    elif CP.carFingerprint in (CAR.HONDA_FIT_4G,):
+      self.support_type: SupportType = SupportType.COMMUNITY
+      self.support_link: str = "community"
+      self.car_parts = CarParts.common([CarHarness.bosch_b])
 
 
 class Footnote(Enum):

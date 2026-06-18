@@ -117,10 +117,6 @@ class HondaCarDocs(CarDocs):
       self.support_type: SupportType = SupportType.COMMUNITY
       self.support_link: str = "community"
    
-    elif CP.carFingerprint in (CAR.HONDA_FIT_4G,):
-      self.support_type: SupportType = SupportType.COMMUNITY
-      self.support_link: str = "community"
-      self.car_parts = CarParts.common([CarHarness.bosch_b])
 
 
 class Footnote(Enum):

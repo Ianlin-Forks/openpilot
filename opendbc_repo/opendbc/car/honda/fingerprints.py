@@ -516,6 +516,7 @@ FW_VERSIONS = {
     (Ecu.fwdRadar, 0x18dab0f1, None): [
       b'8S102-TZK-PA20\x00\x00',
       b'8S102-TZK-PB10\x00\x00',
+      b'8S102-TZK-PB20\x00\x00',
       b'36161-TZA-J050\x00\x00',
       b'36161-TZA-J060\x00\x00',
       b'36161-TZA-J150\x00\x00',
